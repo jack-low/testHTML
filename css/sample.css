@@ -1,0 +1,12 @@
+div.samplearea244 {
+	border: 4px blue double;
+	background-color: #afe4ed;
+	background-image: url("./img/sample.jpg");
+	background-position: left bottom;
+	color: white;
+	font-size: 120%;
+	line-height: 1.7;
+	text-align: left;
+	font-weight: normal;
+	font-style: italic;
+}

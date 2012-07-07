@@ -1,0 +1,105 @@
+body{
+	background:#000;
+}
+div#dockContainer {
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	line-heght: 1;
+	z-index: 100;
+}
+ul#dock {
+	display: inline-block;
+}
+ul#dock li {
+	display: inline-block;
+	margin-top: 78px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	width: 88px;
+	}
+ul#dock li {
+	-webkit-transition:margin 0.15s linear;
+	-moz-transition:margin 0.15s linear;
+	-o-transition:margin 0.15s linear;
+	transition:margin 0.15s linear;
+}
+ul#dock li:hover {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+ul#dock li a {
+	display: bolck;
+}
+ul#dock li {
+	-webkit-transition:all 0.15s linear;
+	-moz-transition:all 0.15s linear;
+	-o-transition:all 0.15s linear;
+	transition:all 0.15s linear;
+}
+ul#dock li:hover {
+	-webkit-transform-origin: center bottom;
+	-moz-transform-origin: center bottom;
+	-o-transform-origin: center bottom;
+	transform-origin: center bottom;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+ul#dock li {
+	position: relative;
+}
+ul#dock li span {
+	background: rgba(255,255,255,0.2);
+	color: #fff;
+	position: absolute;
+	left:0;
+	opacity0;
+	bottom: 50px;
+	visibility:hidden;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+	border-radius: 10px;
+}
+ul#dock li:hover span {
+	opacity:1;
+	bottom: 130px;
+	visibility:visible;
+}
+
+ul#dock li a {
+text-decoration: none;
+display: block;
+width: 80px;
+height: 110px;
+padding: 10px;
+color: black;
+}
+[class^="icon-"], [class*=" icon-"]{
+background: url(icon2.png) no-repeat -8% -98%;
+}
+.icon-dt {
+	background: url(icon2.png) no-repeat 8px -90px;
+}
+.icon-cd {
+	background: url(icon2.png) no-repeat 8px -90px;
+}
+.icon-mv {
+	background: url(icon2.png) no-repeat 8px -90px;
+}
+.icon-mg {
+	background: url(icon2.png) no-repeat 8px -90px;
+}
+.icon-qc {
+	background: url(icon2.png) no-repeat 8px -90px;
+}
+.dt {
+	margin-top: 98px;
+	padding-top: 83px;
+	border-top-width: 57px;
+	top: 42px;
+}
