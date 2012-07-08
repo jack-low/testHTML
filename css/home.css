@@ -58,7 +58,7 @@ footer {
 	border: 10px solid black;
 }
 footer.backh {
-	height: 480px;
+	height: 50px
  background-color: #fff;
  padding: 10px 10px;
 font-weight: bold;
@@ -211,7 +211,7 @@ rgb(221, 221, 221);
 width: 8px;
 }
 p {
-line-height: 80px;
+line-height: -11px;
 }
 
 
@@ -225,12 +225,33 @@ vertical-align: text-top;
 background-image: url("../bootstrap/img/glyphicons-halflings-white.png");
 background-repeat: no-repeat;
 }
+#back-top {
+position: fixed;
+bottom: 10px;
+right: 10px;
+}
+#back-top a {
+width: 70px;
+display: block;
+text-align: center;
+font: 11px/100%;
+text-transform: uppercase;
+text-decoration: none;
+outline: none;
+color: rgb(187, 187, 187);
+-webkit-transition: 1s;
+-moz-transition: 1s;
+transition: 1s;
+filter: alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+}
 
 /*         @media       */
 @media (max-width: 768px){
 	footer.backh {
 
-height: 80px;
+height: 50px;
 background-color:white;
 padding: 10px 10px;
 font-weight: bold;
@@ -241,7 +262,7 @@ border-radius: 3px;
 }
 @media (min-width: 768px) and (max-width: 859px){
 footer.backh {
-height: 560px;
+height: 50px;
 background-color:
 white;
 padding: 10px 10px;
@@ -254,7 +275,7 @@ border-radius: 3px;
 	}
 @media (min-width: 860px) and (max-width: 960px) {
 	footer.backh {
-height: 580px;
+height: 50px;
 background-color:
 white;
 padding: 10px 10px;
